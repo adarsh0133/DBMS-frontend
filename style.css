@@ -204,7 +204,6 @@ body {
 #main h1 {
     color: #fff;
     font-size: 5vw;
-    font-family: voyage;
 }
 
 #main h2 {
@@ -244,7 +243,7 @@ body {
     font-size: 2.4vw;
     font-weight: 500;
     color: #fff;
-    font-family: voyage;
+    font-family: gilroy-b;
     background: rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
