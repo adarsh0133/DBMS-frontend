@@ -7,13 +7,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: gilroy-b;
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
-    font-family: gilroy-b;
     text-transform: uppercase;
     color: #fff;
 }
