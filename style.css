@@ -14,7 +14,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-    text-transform: uppercase;
     color: #fff;
 }
 
@@ -29,7 +28,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #212121;
-    /* display: none; */
+    display: none;
 }
 
 .loader {
@@ -128,6 +127,7 @@ body {
     backdrop-filter: blur(8px);
     position: fixed;
     z-index: 8;
+    text-transform: uppercase;
 }
 
 #lft-nav {
@@ -141,7 +141,7 @@ body {
 
 #lft-nav img{
     width: 100px;
-    height: 80px;
+    height: 70px;
     object-fit: cover;
     object-position: center;
 }
@@ -205,11 +205,17 @@ body {
     color: #fff;
     font-size: 5vw;
     font-family: gilroy-b;
+    text-transform: uppercase;
 }
 
 #main h2 {
     font-size: 3vw;
     margin-top: 20px;
+    text-transform: capitalize;
+}
+
+#main h2{
+    color: rgb(240, 60, 40);
 }
 
 #main2 {
@@ -253,8 +259,8 @@ body {
 }
 
 .swiper-slide .bn632-hover {
-    width: 160px;
-    font-size: 16px;
+    width: 10vw;
+    font-size: 1.2vw;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -294,4 +300,30 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #0C1826;
+    display: flex;
+}
+
+#m3-lft{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+#m3-lft img{
+    width: 300px;
+    height: 300px;
+}
+
+#m3-rgt{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 10px;
+    gap: 10px;
 }
